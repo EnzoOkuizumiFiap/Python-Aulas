@@ -1,4 +1,3 @@
-import sys
 
 #Ex 06 Peça para o usuário informar por input uma opção dentre as seguites: a, b, ou c.
 '''
@@ -25,23 +24,21 @@ nota1 = float(input("Nota 1:"))
 nota2 = float(input("Nota 2:"))
 nota3 = float(input("Nota 3:"))
 
+#Condição Composta
 if nota1 < 0 or nota2 < 0 or nota3 < 0:
     print("Nota com valor incorreto! (<0)")
-    sys.exit()
 elif nota1 > 10 or nota2 > 10 or nota3 > 10:
     print("Nota com valor incorreto! (>10)")
-    sys.exit()
 
 resultado = (nota1 + nota2 + nota3) / 3
 print("Sua nota é", resultado)
 
-if resultado >= 7.0:
+if resultado >= 7:
     print("Aprovado!")
+elif resultado <= 3:
+    print("Reprovado!")
 else:
-    if resultado >= 3.0:
-        print("Recuperação!")
-    else:
-        print("Reprovado!")
+    print("Recuperação!")
 
 
 
@@ -50,11 +47,11 @@ else:
 
 idade = int(input("Qual a sua idade? "))
 
-if idade >= 18 <= 60:
+if idade >= 18 and idade <= 60:
     print("Pode doar sangue!")
-elif idade >= 16 < 18:
+elif idade >= 16 and idade < 18:
     print("Você pode doar sangue, mas com autorização dos pais")
-    escolha = input("Seus pais autorização a doação de sangue? S ou N: ")
+    escolha = input("Seus pais autorizaram a doação de sangue? S ou N: ")
     if escolha == 'S':
         print("Vamos doar sangue!")
     elif escolha == 'N':
