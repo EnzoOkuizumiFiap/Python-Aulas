@@ -1,4 +1,17 @@
-#Usando o While...
+'''
+O loop `while` em Python é usado para executar um bloco de código repetidamente enquanto uma condição específica for verdadeira.
+
+while condicao:
+    # Bloco de código a ser executado
+    # (geralmente inclui algo que eventualmente tornará a condição falsa)
+
+- A `condicao` é avaliada antes de cada iteração.
+- Se a `condicao` for `True`, o bloco de código dentro do `while` é executado.
+- Se a `condicao` for `False`, o loop termina e a execução continua após o bloco `while`.
+- É importante garantir que a condição eventualmente se torne `False` para evitar loops infinitos, a menos que um loop infinito seja intencional e controlado (por exemplo, com `break`).
+'''
+
+#Usando o While... 
 
 #Exemplo 01 - Idade
 print('Qual sua idade?')
@@ -44,3 +57,17 @@ while em_execucao:
     else:
         em_execucao = False
 print('Encerrando...')
+
+
+#Exemplo 05 - Repetição com valores inicial e final definidos pelo usuário
+print('Qual o valor inicial da repetição?')
+inicio = int(input())
+print('Qual o valor final da repetição?')
+final = int(input())
+
+i = inicio
+while i < final:
+    print(i)
+    i = i + 1
+
+print('while terminou porque i está com valor', i)
