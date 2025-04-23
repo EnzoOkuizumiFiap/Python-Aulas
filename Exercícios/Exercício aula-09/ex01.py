@@ -4,7 +4,7 @@ import time # Importa o módulo time
 em_execucao = True
 
 while em_execucao:
-    print('Escolha uma opção:\nA - Somar dois números\nB - Subtrair dois números\nC - Multiplicar dois números\nD - dividir dois números\nE - Mostrar tabuadas de 1 a 10\nF - Encerrar programa')
+    print('\nEscolha uma opção:\nA - Somar dois números\nB - Subtrair dois números\nC - Multiplicar dois números\nD - dividir dois números\nE - Mostrar tabuadas de desejada\nF - Encerrar programa')
 
     opcao = input("Digite a opção: ").upper()
 
@@ -37,15 +37,15 @@ while em_execucao:
             time.sleep(3) 
 
     elif opcao == 'E':
-        numero = 1
-        while numero <= 10:
-            print(f'\nTabuada do {numero}:')
-            multiplicador = 1
-            while multiplicador <= 10:
-                resultado = numero * multiplicador
-                print(f'{numero} x {multiplicador} = {resultado}')
-                multiplicador += 1
-            numero += 1
+        numero = int(input("Qual a tabuada desejada? "))
+        print(f'\nTabuada do {numero}:')
+
+        multiplicador = 1
+        while multiplicador <= 10:
+            print(f'{numero} x {multiplicador} = {numero * multiplicador}')
+            multiplicador += 1
+
+        time.sleep(3)
 
     elif opcao == 'F':
         em_execucao = False
