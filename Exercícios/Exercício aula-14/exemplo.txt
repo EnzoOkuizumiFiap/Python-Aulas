@@ -1,0 +1,6 @@
+Olá!
+
+Este é um arquivo que escrevi em formato TXT.
+Ou seja, um texto simples, sem formatação
+
+Tchau!
