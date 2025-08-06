@@ -1,4 +1,3 @@
-
 num1 = int(input("Digite 1° número:"))
 
 num2 = int(input("Digite 2° número:"))
