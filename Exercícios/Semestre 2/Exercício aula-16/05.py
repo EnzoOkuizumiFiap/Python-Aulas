@@ -1,4 +1,4 @@
-def avalia_temperatura(tempo):
+def avalia_temperatura(temp):
     if temp > 25:
         print('Está calor')
     elif temp < 17:
