@@ -1,0 +1,32 @@
+{
+    "nome": "SimplesHC",
+    "tema": "Reduzir Absenteísmo nas consultas online do Hospital HC",
+    "curso": "ADS",
+    "semestre": 2,
+    "materia": "Python",
+    "professor": "Samuel",
+
+    "integrantes": [
+        {
+            "nome": "Enzo Okuizumi",
+            "ra": 561432,
+            "turma": "1TDSPG",
+            "turno": "Manha",
+            "media": 9.67
+        },
+        {
+            "nome": "Lucas Barros",
+            "ra": 566422,
+            "turma": "1TDSPG",
+            "turno": "Manha",
+            "media": 9.7
+        },
+        {
+            "nome": "Milton Jackson",
+            "ra": 564836,
+            "turma": "1TDSPG",
+            "turno": "Manha",
+            "media": 9
+        }
+    ]
+}

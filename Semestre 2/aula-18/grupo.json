@@ -1,0 +1,17 @@
+[
+    {
+        "nome": "Enzo Okuizumi",
+        "ra": 543214,
+        "curso": "ADS"
+    },
+    {
+        "nome": "Lucas Barros",
+        "ra": 123456,
+        "curso": "ADS"
+    },
+    {
+        "nome": "Milton Jackson",
+        "ra": 789012,
+        "curso": "ADS"
+    }
+]
