@@ -38,7 +38,7 @@ A estrutura está organizada por semestre, aulas e exercícios, facilitando a na
 
 ---
 
-### Semestre 2
+### semestre 02
 
 - **aula-15/aula-15.py**: Introdução ao uso de APIs e manipulação de dados externos.
 - **aula-16/aula-16.py**: Continuação de manipulação de dados e integração.
@@ -59,7 +59,7 @@ A estrutura está organizada por semestre, aulas e exercícios, facilitando a na
   - **02-reorganiza.py**: Reorganização de dados de câmbio.
   - **03.py**: Consulta de câmbio, filtragem por valor, exibição de moedas fortes, busca personalizada.
 
-#### Exercícios Semestre 2
+#### Exercícios semestre 02
 
 - **Exercício aula-15**: Exercícios de integração com APIs e manipulação de dados.
 - **Exercício aula-16**: Exercícios avançados de manipulação de dados.

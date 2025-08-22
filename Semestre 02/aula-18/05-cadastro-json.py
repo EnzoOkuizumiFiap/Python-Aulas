@@ -1,7 +1,7 @@
 import json
 
 # nome do arquivo usado para persistir os dados
-NOME_ARQUIVO = './semestre 2/aula-18/paciente.json'
+NOME_ARQUIVO = './semestre 02/aula-18/paciente.json'
 
 def le_json():
     '''

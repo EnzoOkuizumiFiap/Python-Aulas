@@ -6,7 +6,7 @@ def mostra_dados(estudante):
     print(f'Curso: {estudante["curso"]}')
 
 def main():
-    with open('./semestre 2/aula-18/estudante.json') as arquivo:
+    with open('./semestre 02/aula-18/estudante.json') as arquivo:
         estudante = json.load(arquivo)
     
     print('Dados lidos com sucesso!')

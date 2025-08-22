@@ -1,6 +1,6 @@
 import json
 
-NOME_ARQUIVO = './semestre 2/aula-18/grupo_v2.json'
+NOME_ARQUIVO = './semestre 02/aula-18/grupo_v2.json'
 
 '''
 Exercícios:

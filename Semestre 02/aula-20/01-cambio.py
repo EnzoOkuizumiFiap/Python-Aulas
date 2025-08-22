@@ -1,7 +1,7 @@
 import json
 
 #Convenção: Variável com nome em MAIÚSCULAS é tratado como constante (valor não muda)
-NOME_ARQUIVO = './semestre 2/aula-20/USD.json'
+NOME_ARQUIVO = './semestre 02/aula-20/USD.json'
 
 def main():
     with open(NOME_ARQUIVO, 'r') as arquivo:

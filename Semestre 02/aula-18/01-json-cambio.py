@@ -11,7 +11,7 @@ para outras moedas.)
 '''
 
 def main():
-    with open('./semestre 2/aula-18/GBP.json') as arquivo:
+    with open('./semestre 02/aula-18/GBP.json') as arquivo:
         # esse arquivo descreve um único objeto, portanto vem
         # para nosso programa na forma de dicionário
         dados_gbp = json.load(arquivo)

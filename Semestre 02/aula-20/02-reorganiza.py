@@ -1,7 +1,7 @@
 #Vamos reorganizar o arquivo 01-cambio.py
 import json
 
-NOME_ARQUIVO = './semestre 2/aula-20/USD.json'
+NOME_ARQUIVO = './semestre 02/aula-20/USD.json'
 
 def abre_json(nome_arquivo):
     with open(nome_arquivo, 'r') as arquivo:
