@@ -58,11 +58,51 @@ A estrutura está organizada por semestre, aulas e exercícios, facilitando a na
   - **01-cambio.py**: Consulta de câmbio de moedas via API.
   - **02-reorganiza.py**: Reorganização de dados de câmbio.
   - **03.py**: Consulta de câmbio, filtragem por valor, exibição de moedas fortes, busca personalizada.
+- **aula-21**:
+  - **01-filtra-por-inicial.py**: Filtragem de dados por inicial.
+  - **02-funcao-retorna-temperatura.py**: Função que retorna temperatura.
+  - **03-for-append-temps_baixas.py**: Uso de loop e append para temperaturas baixas.
+  - **04-filtra-temp-baixas-2-valores.py**: Filtragem de temperaturas baixas com dois valores.
+  - **05-nomes-mais-30.py**: Filtragem de nomes com mais de 30 caracteres.
+  - **06-maior-idade-30_altura-1.75.py**: Filtragem por idade e altura.
+  - **07-request.py**: Exemplo de requisição.
+- **aula-22**:
+  - **01 - exibir taxa de cambio USD p CAD.py**: Exibição da taxa de câmbio USD para CAD.
+  - **02 - exibir taxa de cambio com URL_BASE e URL.py**: Exibição de taxa de câmbio usando URL_BASE e URL.
+  - **03 - Moeda origem e moeda destino.py**: Manipulação de moeda origem e destino.
+- **aula-23**:
+  - **01 - exercicio de logica.py**: Exercício de lógica.
+- **aula-24**:
+  - **exercicio-entregar.py**: Exercício para entrega.
+- **aula-25**:
+  - **03 - resolucao_valor_medio.py**: Resolução de valor médio.
+  - **04 - sort e sorted.py**: Uso de sort e sorted.
+- **aula-26**:
+  - **01 - deixa_erros.py**: Código com erros deixados para tratamento.
+  - **02 - trata_erros.py**: Tratamento de erros.
+- **aula-27**:
+  - **checkpoint-5.py**: Checkpoint 5.
+- **aula-28**:
+  - **01-oracle-conecta.py**: Conexão com Oracle.
+  - **02-bd-organiza.py**: Organização de banco de dados.
+  - **03-oracle-cursor.py**: Uso de cursor Oracle.
+  - **04-query-organiza.py**: Organização de queries.
+  - **05-query-interativo.py**: Query interativa.
 
 #### Exercícios semestre 02
 
 - **Exercício aula-15**: Exercícios de integração com APIs e manipulação de dados.
 - **Exercício aula-16**: Exercícios avançados de manipulação de dados.
+- **```OBS: Os exercícios abaixo estão nas pastas das aulas, não estão em Exercícios...```**
+- **Exercício aula-21**: Exercícios de filtragem e manipulação de dados.
+- **Exercício aula-22**: Exercícios de taxas de câmbio e manipulação de moedas.
+- **Exercício aula-23**: Exercícios de lógica.
+- **Exercício aula-24**: Exercícios para entrega.
+- **Exercício aula-25**: Exercícios de ordenação e cálculo de valores.
+- **Exercício aula-26**: Exercícios de tratamento de erros.
+- **Exercício aula-27**: Checkpoint 5.
+- **Exercício aula-28**: Exercícios de banco de dados Oracle e queries.
+
 
 ---
 
@@ -95,9 +135,3 @@ A estrutura está organizada por semestre, aulas e exercícios, facilitando a na
 
 - Os códigos estão comentados para facilitar o entendimento.
 - A estrutura de pastas e arquivos permite localizar rapidamente o conteúdo de cada aula ou exercício.
-- Recomendo consultar este README sempre que quiser saber o que cada pasta ou arquivo aborda.
-
----
-
-**Dica:**  
-Use este README para navegar pelo repositório e encontrar rapidamente o conteúdo desejado sem precisar abrir cada arquivo.
