@@ -1,0 +1,23 @@
+[
+    {
+        "id": 3,
+        "rm": "561353",
+        "nome": "Carlos",
+        "curso": "ADS",
+        "turma": "1TDSPG"
+    },
+    {
+        "id": 1,
+        "rm": "561432",
+        "nome": "Enzo",
+        "curso": "ADS",
+        "turma": "1TDSPG"
+    },
+    {
+        "id": 2,
+        "rm": "561324",
+        "nome": "Milton",
+        "curso": "ADS",
+        "turma": "1TDSPG"
+    }
+]
