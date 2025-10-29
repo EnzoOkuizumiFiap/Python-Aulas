@@ -38,7 +38,7 @@ A estrutura está organizada por semestre, aulas e exercícios, facilitando a na
 
 ---
 
-### semestre 02
+### Semestre 02
 
 - **aula-15/aula-15.py**: Introdução ao uso de APIs e manipulação de dados externos.
 - **aula-16/aula-16.py**: Continuação de manipulação de dados e integração.
@@ -88,8 +88,21 @@ A estrutura está organizada por semestre, aulas e exercícios, facilitando a na
   - **03-oracle-cursor.py**: Uso de cursor Oracle.
   - **04-query-organiza.py**: Organização de queries.
   - **05-query-interativo.py**: Query interativa.
+- **aula-29**:
+  - **01-query-interativa.py**: Queries interativas em tabela de filmes.
+  - **02-bd-menu.py**: Menu para operações de banco de dados em tabela de estudantes.
+- **aula-30**:
+  - **01-bd-menu.py**: Menu avançado com inserção, remoção e busca por RM em estudantes.
+- **aula-31**:
+  - **01-bd-json.py**: Exportação de resultados de queries para arquivos JSON.
+- **aula-32**:
+  - **01-fastapi.py**: Aplicação básica com FastAPI.
+  - **02-fastapi.py**: FastAPI com múltiplos endpoints.
+  - **03-requisicao-dinamica.py**: Requisições dinâmicas em FastAPI.
+- **aula-33**:
+  - **01-fatapi-requisicao-dinamica.py**: FastAPI com requisições dinâmicas, grupo e data atual.
 
-#### Exercícios semestre 02
+#### Exercícios Semestre 02
 
 - **Exercício aula-15**: Exercícios de integração com APIs e manipulação de dados.
 - **Exercício aula-16**: Exercícios avançados de manipulação de dados.
@@ -102,6 +115,11 @@ A estrutura está organizada por semestre, aulas e exercícios, facilitando a na
 - **Exercício aula-26**: Exercícios de tratamento de erros.
 - **Exercício aula-27**: Checkpoint 5.
 - **Exercício aula-28**: Exercícios de banco de dados Oracle e queries.
+- **Exercício aula-29**: Queries interativas e menus de banco de dados.
+- **Exercício aula-30**: Menus avançados com CRUD em estudantes.
+- **Exercício aula-31**: Exportação de dados para JSON.
+- **Exercício aula-32**: Desenvolvimento de APIs com FastAPI.
+- **Exercício aula-33**: FastAPI com requisições dinâmicas e exercícios de grupo e data.
 
 
 ---
@@ -114,6 +132,8 @@ A estrutura está organizada por semestre, aulas e exercícios, facilitando a na
 - **Busca personalizada**: Consulta câmbio de qualquer moeda digitada pelo usuário.
 - **Cadastro e manipulação de dados**: Exercícios de cadastro, leitura e escrita em arquivos.
 - **Tratamento de exceções**: Exemplos práticos de como tratar erros em Python.
+- **Banco de dados Oracle**: Conexão, queries interativas, CRUD em tabelas de estudantes e filmes.
+- **APIs com FastAPI**: Desenvolvimento de aplicações web com endpoints dinâmicos.
 - **Exercícios práticos**: Diversos exercícios para fixação dos conceitos de cada aula.
 
 ---
@@ -122,7 +142,7 @@ A estrutura está organizada por semestre, aulas e exercícios, facilitando a na
 
 1. Instale as dependências (se necessário):
    ```
-   pip install requests
+   pip install requests oracledb fastapi uvicorn
    ```
 2. Execute o arquivo desejado:
    ```
