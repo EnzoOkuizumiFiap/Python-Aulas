@@ -101,6 +101,8 @@ A estrutura está organizada por semestre, aulas e exercícios, facilitando a na
   - **03-requisicao-dinamica.py**: Requisições dinâmicas em FastAPI.
 - **aula-33**:
   - **01-fatapi-requisicao-dinamica.py**: FastAPI com requisições dinâmicas, grupo e data atual.
+- **aula-34**:
+  - **01-orientacao-objeto.py**: Introdução à orientação a objetos, criação de classes e objetos.
 
 #### Exercícios Semestre 02
 
@@ -134,6 +136,7 @@ A estrutura está organizada por semestre, aulas e exercícios, facilitando a na
 - **Tratamento de exceções**: Exemplos práticos de como tratar erros em Python.
 - **Banco de dados Oracle**: Conexão, queries interativas, CRUD em tabelas de estudantes e filmes.
 - **APIs com FastAPI**: Desenvolvimento de aplicações web com endpoints dinâmicos.
+- **Orientação a objetos**: Introdução a classes, objetos, métodos e atributos em Python.
 - **Exercícios práticos**: Diversos exercícios para fixação dos conceitos de cada aula.
 
 ---
