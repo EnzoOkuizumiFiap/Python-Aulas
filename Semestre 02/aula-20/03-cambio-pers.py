@@ -32,6 +32,9 @@ def mostra_cambio_fortes(dicionario_cambio):
 
 def main():
     dados_cambio = abre_json(NOME_ARQUIVO)
+    if dados_cambio is None:
+        print("Erro ao obter os dados de câmbio. Verifique sua conexão ou o endereço do arquivo.")
+        return
 
     print('Dados lidos com sucesso!')
     print(f'Tipo de dado: {type(dados_cambio)}')
